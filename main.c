@@ -1,7 +1,6 @@
 // Welcome to Coder's Manual.
 // Copyright (©) Uri Arev 2021
 // Source Code by Uri Arev written: 12/Dec 2020
-// This is a test Git Commit comment.
 
 #include <stdio.h>
 #include <stdlib.h>
