@@ -7,18 +7,25 @@
 #include <string.h>
 
 int main() {
-	system("clear");
-	printf("Welcome to the Coder's Manual.\n");
-	printf("\n╔══════════════════╗\n");
-	printf("║1. ASCII Table    ║\n");
-	printf("╚══════════════════╝\n");
-	
-	char in[1000];
-	fgets(in, 1000, stdin);
-	if ( strcmp(in, "1\n") == 0 ) {
-		printf("ASCII\n");
-	} else {
-		printf("Null");
+	while ( 0 == 0 ) {	
+		system("clear");
+		printf("Welcome to the Coder's Manual.\n");
+		printf("\n╔══════════════════╗\n");
+		printf("║1. ASCII Table    ║\n");
+		printf("╚══════════════════╝\n");
+		
+		char in[1000];
+		fgets(in, 1000, stdin);
+		if ( strcmp(in, "1\n") == 0 ) {
+			printf("ASCII\n");
+			printf("Press <ENTER> to continue");
+			char enter[100];
+			fgets(enter, 100, stdin);
+		} else {
+			printf("Please make sure you entered a valid number. Press <ENTER> to continue");
+			char enter[100];
+			fgets(enter, 100, stdin);
+		};
 	};
 	return 0;
 }
