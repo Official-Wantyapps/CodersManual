@@ -8,8 +8,11 @@
 int main() {
 	system("clear");
 	printf("Welcome to the Coder's Manual.\n");
-	printf("\n\n╔══════════════════╗\n");
+	printf("\n╔══════════════════╗\n");
 	printf("║1. ASCII Table    ║\n");
 	printf("╚══════════════════╝\n");
+	
+	char in[1000];
+	fgets(in, 1000, stdin);
 	return 0;
 }
