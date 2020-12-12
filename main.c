@@ -4,6 +4,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 int main() {
 	system("clear");
@@ -14,5 +15,10 @@ int main() {
 	
 	char in[1000];
 	fgets(in, 1000, stdin);
+	if ( strcmp(in, "1\n") == 0 ) {
+		printf("ASCII\n");
+	} else {
+		printf("Null");
+	};
 	return 0;
 }
