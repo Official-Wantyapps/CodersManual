@@ -12,6 +12,7 @@ int main() {
 		printf("Welcome to the Coder's Manual.\n");
 		printf("\n╔══════════════════╗\n");
 		printf("║1. ASCII Table    ║\n");
+		printf("║99. Exit          ║\n");
 		printf("╚══════════════════╝\n");
 		
 		char in[1000];
@@ -21,6 +22,9 @@ int main() {
 			printf("Press <ENTER> to continue");
 			char enter[100];
 			fgets(enter, 100, stdin);
+		} else if ( strcmp(in, "99\n") == 0 ) {
+			system("clear");
+			return 0;
 		} else {
 			printf("Please make sure you entered a valid number. Press <ENTER> to continue");
 			char enter[100];
