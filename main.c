@@ -16,6 +16,7 @@ int main() {
 		printf("╚══════════════════╝\n");
 		
 		char in[1000];
+		printf("CMAN> ");
 		fgets(in, 1000, stdin);
 		if ( strcmp(in, "1\n") == 0 ) {
 			printf("ASCII\n");
