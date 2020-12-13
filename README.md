@@ -18,6 +18,6 @@
 repository's directory.
 
 * You can now use the command `rm -rf CodersManual` to remove the directory.
-(BE CAREFUL USING THIS COMMAND.)
+(BE CAREFUL USING THIS COMMAND)
 
 **_Thank you for using one of the Official Wantyapps tools_**
